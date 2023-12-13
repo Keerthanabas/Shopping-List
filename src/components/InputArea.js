@@ -4,7 +4,7 @@ import React from "react";
 const InputArea = () => {
     return (
         <div>
-            <h1>hi</h1>
+            <h2>Items To Buy</h2>
         </div>
 
     )
