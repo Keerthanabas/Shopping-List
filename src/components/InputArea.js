@@ -5,7 +5,7 @@ const InputArea = () => {
     return (
         <div>
             <h2>Items To Buy</h2>
-            <input></input>
+            <input type="text" placeholder="Add new item"></input>
             <button>Add</button>
         </div>
 
