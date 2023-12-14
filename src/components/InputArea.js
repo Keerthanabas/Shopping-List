@@ -15,6 +15,7 @@ const InputArea = (props) => {
                 props.additems(inputText);
                 setInputText("");
                 }}>Add</button>
+                
         </div>
 
 

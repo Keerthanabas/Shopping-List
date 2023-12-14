@@ -1,11 +1,11 @@
 import React from 'react';
 
 
-const shoppingList = ()=>{
+const ShoppingList = (props)=>{
     return(
         <div>
-            
+        <li>{props.text} </li> 
         </div>
     )
 }
-export default shoppingList
+export default ShoppingList
