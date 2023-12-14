@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 
 
-const InputArea = () => {
+const InputArea = (props) => {
     const [inputText,setInputText] = useState("")
 
     const handleChange = (event) =>{
@@ -11,7 +11,10 @@ const InputArea = () => {
         <div>
             <h2>Items To Buy</h2>
             <input type="text" placeholder="Add new item" onChange={handleChange} value={inputText}></input>
-            <button>Add</button>
+            <button onClick={()=>{
+                props.additems(inputText);
+                setInputText("");
+                }}>Add</button>
         </div>
 
 
