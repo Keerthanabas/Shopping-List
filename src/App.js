@@ -22,7 +22,7 @@ const deleteItem = (id)=>{
 console.log(items)
   
   return (
-    <div className="App">
+    <div>
     <h1>Project:3 Shopping List</h1>
     <InputArea additems = {addItems}/>
     <div>

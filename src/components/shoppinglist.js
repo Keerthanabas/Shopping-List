@@ -1,11 +1,5 @@
 import React from 'react';
 
-
-
-
-
-
-
 const ShoppingList = (props)=>{
     return(
         <div>
