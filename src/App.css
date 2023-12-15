@@ -3,4 +3,9 @@
   text-align: center;
   }
   
+ .shoppinglist{
 
+ margin-top: 50px;
+  background-color: white;
+  border: 2px dashed black;
+}
