@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 
 
+
 const InputArea = (props) => {
     const [inputText,setInputText] = useState("")
 
@@ -17,8 +18,6 @@ const InputArea = (props) => {
                 }}>Add</button>
                 
         </div>
-
-
     )
 }
 export default InputArea

@@ -28,7 +28,7 @@ console.log(items)
     <div>
       <ul>
         {items.map((item,index)=>{
-          return <ShoppingList key={index} text={item} /> 
+          return <ShoppingList key={index} text={item} deleteItem={deleteItem} id={index}/> 
         })}
         </ul>
         
