@@ -6,8 +6,7 @@ import ShoppingList from "./components/shoppinglist"
 function App() {
 
   const [items,setItems] = useState ([])
-
-  const addItems = (inputText) =>{
+   const addItems = (inputText) =>{
     setItems((prevItems) => {
       return [...prevItems,inputText]
 })
