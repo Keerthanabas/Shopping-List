@@ -1,10 +1,12 @@
 import React from 'react';
-//import '@mui/icons-material/Cancel';
+
 
 const ShoppingList = (props)=>{
     return(
         <div>
-        <li>{props.text}</li> <button onClick={()=>props.deleteItem(props.id)}> Cancel </button>
+        <li>{props.text}</li> <button onClick={()=>props.deleteItem(props.id)}> 
+        <span class="material-symbols-outlined"> Cancel</span> 
+          </button>
         </div>
     )
 }
