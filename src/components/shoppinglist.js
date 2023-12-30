@@ -7,7 +7,6 @@ const ShoppingList = (props)=>{
         <li>{props.text}</li> 
         {/* <button onClick={()=>props.deleteItem(props.id)}> </button> */}
         <span class="material-symbols-outlined" onClick={()=>props.deleteItem(props.id)}> Cancel</span> 
-          
         </div>
     )
 }
