@@ -11,7 +11,8 @@
 }
 
 .material-symbols-outlined {
-  box-sizing: none;
+  display: flex;
+  
   
 }
 
