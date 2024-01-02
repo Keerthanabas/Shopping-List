@@ -12,9 +12,15 @@
 .material-symbols-outlined {
   cursor: pointer;
   
+  
 }
 .list{
-  justify-content: center;
-  text-align: center;
+  border: 0px;
+  margin-left: 45%;
+  margin-right: 55%;
+  padding: 15px ;
 }
+
+
+
 

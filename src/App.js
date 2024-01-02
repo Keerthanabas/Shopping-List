@@ -26,7 +26,7 @@ console.log(items)
     <div>
     <h1>Project:3 Shopping List</h1>
      <InputArea additems = {addItems}/>
-    <div>
+    <div className='list'>
       <ul>
         {items.map((item,index)=>{
           return <ShoppingList key={index} text={item} deleteItem={deleteItem} id={index}/> 
