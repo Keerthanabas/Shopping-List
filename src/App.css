@@ -18,11 +18,14 @@
   flex-direction: column;
   align-content: flex-end;
   flex-wrap: wrap;
-  
-  
-}
+  border: none;
+  }
 li {
   list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 200px;
 }
 ul {
   align-items: center;
@@ -32,6 +35,9 @@ ul {
   padding: 0;
   flex-direction: column;
 }
+
+
+
 
 
 
