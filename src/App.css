@@ -1,6 +1,7 @@
 *{
   background-color: rgb(248, 240, 240);
-  text-align: center;
+  text-align: center; 
+  font-family: 'Times New Roman', Times, serif;
   }
   
  .shoppinglist{
@@ -11,16 +12,19 @@
 
 .material-symbols-outlined {
   cursor: pointer;
+  display: flex;
+  align-items: flex-start;
+  width: 200px;
+  flex-direction: column;
+  align-content: flex-end;
+  flex-wrap: wrap;
   
   
 }
-/* .list{
-  border: 0px;
-  margin-left: 45%;
-  margin-right: 55%;
-  padding: 15px ;
-} */
-.list{
+li {
+  list-style: none;
+}
+ul {
   align-items: center;
   justify-content: center;
   display: flex;
@@ -28,6 +32,8 @@
   padding: 0;
   flex-direction: column;
 }
+
+
 
 
 
