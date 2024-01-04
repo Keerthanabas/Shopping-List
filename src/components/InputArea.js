@@ -11,7 +11,7 @@ const InputArea = (props) => {
         <div>
             <h2>Items To Buy</h2>
             <input type="text" placeholder="Add new item" onChange={handleChange} value={inputText}></input>
-            <button onClick={()=>{
+            <button className="add" onClick={()=>{
                 props.additems(inputText);
                 setInputText("");
                 }}>Add</button>
